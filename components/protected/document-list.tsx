@@ -97,7 +97,6 @@ export default function DocumentList({ files, user }: DocumentListProps) {
   return (
     <>
       <Toaster />
-      {assistantName}
       <ul className="space-y-6">
         {files
           .filter((file) => file.name !== ".emptyFolderPlaceholder")
